@@ -65,7 +65,7 @@ class SuperTopicHandler(object):
         url = 'https://api.weibo.cn/2/cardlist'
 
         while True:
-            time.sleep(random.randint(3, 5))
+            time.sleep(random.randint(5, 10))
             data['v_f'] = page
             data['since_id'] = since_id
 
